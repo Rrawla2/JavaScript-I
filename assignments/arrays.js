@@ -134,4 +134,8 @@ for (let i = 0; i < inventory.length; i++) {
     BMWAndAudi.push(inventory[i].car_model);
   };
 }
-console.log(JSON.stringify(BMWAndAudi));
+newFunction();
+function newFunction() {
+  console.log(JSON.stringify(BMWAndAudi));
+}
+
